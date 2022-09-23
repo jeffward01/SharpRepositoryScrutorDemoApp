@@ -1,0 +1,10 @@
+{
+  "aeonic-solution-id": "1905dc28-0675-4529-b523-fd553b0795f1",
+  "az-devops-organization-name": "Aeonic-Tech",
+  "az-devops-organization-url": "https://dev.azure.com/Aeonic-Tech",
+  "az-devops-project-name": "Libraries",
+  "az-devops-repo-name": "SharpRepository.Scrutor",
+  "base-solution-name-without-dots": "",
+  "base-solution-name-with-dots": "",
+  "solution-type": "console"
+}

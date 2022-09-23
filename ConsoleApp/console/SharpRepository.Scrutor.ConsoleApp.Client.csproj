@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <ProjectGuid>{FDC479D0-CEBF-49B7-8B0D-5522C0B68474}</ProjectGuid>
+        <AeonicProjectType>consoleAppClient</AeonicProjectType>
+    </PropertyGroup>
+    <ItemGroup>
+        <PackageReference Include="Config.Net" Version="5.1.3" />
+        <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.0" />
+        <PackageReference Include="scrutor" Version="4.2.0" />
+        <PackageReference Include="SharpRepository" Version="0.0.3" />
+        <PackageReference Include="SharpRepository.EfRepository" Version="2.1.3" />
+        <PackageReference Include="SharpRepository.InMemoryRepository" Version="2.0.3.1" />
+        <PackageReference Include="SharpRepository.Repository" Version="2.2.1" />
+        <PackageReference Include="Spectre.Console" Version="0.45.0" />
+    </ItemGroup>
+    <ItemGroup>
+      <None Update="appsettings.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+    </ItemGroup>
+</Project>

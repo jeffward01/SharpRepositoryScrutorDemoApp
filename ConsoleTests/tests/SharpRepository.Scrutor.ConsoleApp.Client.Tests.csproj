@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <IsPackable>false</IsPackable>
+        <ProjectGuid>{1B89E8F0-F15E-4674-908C-389A74A4526C}</ProjectGuid>
+        <AeonicProjectType>consoleAppClientTest</AeonicProjectType>
+    </PropertyGroup>
+    <ItemGroup>
+        <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.3.1"/>
+        <PackageReference Include="xunit" Version="2.4.2"/>
+        <PackageReference Include="Xunit.DependencyInjection" Version="8.5.0"/>
+        <PackageReference Include="xunit.runner.visualstudio" Version="2.4.5">
+            <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+            <PrivateAssets>all</PrivateAssets>
+        </PackageReference>
+        <PackageReference Include="coverlet.collector" Version="3.1.2">
+            <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+            <PrivateAssets>all</PrivateAssets>
+        </PackageReference>
+    </ItemGroup>
+    <ItemGroup>
+        <ProjectReference Include="..\..\ConsoleApp\console\SharpRepository.Scrutor.ConsoleApp.Client.csproj"/>
+    </ItemGroup>
+</Project>

@@ -1,0 +1,99 @@
+### First
+### Second
+### Third
+
+variables:
+- group: Aeonic-Library-Variables
+
+- name: BuildConfiguration
+  value: Debug
+
+- name: PackageFrameworks
+  value: net6.0
+
+- name: major
+  value: 1
+
+- name: minor
+  value: 3
+
+- name: revision
+  value: $[counter(variables['minor'], 1)]
+
+- name: Nuget_Package_Version
+  value: $(major).$(minor).$(revision)
+
+jobs:
+- job: RestoreBuildPackDeployPackage
+  pool:
+    name: $(DefaultBuildAgentWin)
+  steps:
+  - task: UseDotNet@2
+    displayName: Installing dotnet net6.0 SDK
+    inputs:
+      packageType: sdk
+      version: $(BuildWithDotNetSdkVersion6)
+      installationPath: $(Agent.ToolsDirectory)/dotnet
+
+  - task: NuGetToolInstaller@1
+    displayName: Installing Nuget v.6.1.0
+    inputs:
+      versionSpec: 6.1.0
+      checkLatest: false
+
+  - task: DotNetCoreCLI@2
+    displayName: DotNet - Restore - Library Project
+    inputs:
+      command: restore
+      feedsToUse: select
+      feedRestore: $(ArtifactFeed)
+      includeNuGetOrg: true
+      projects: '**/lib/*.csproj'
+      noCache: true
+      nugetConfigPath: Nuget.Config
+
+  - task: DotNetCoreCLI@2
+    displayName: DotNet - Build - Library Project
+    inputs:
+      command: build
+      projects: '**/lib/*.csproj'
+      arguments: --configuration $(BuildConfiguration) /p:ContinuousIntegrationBuild=true
+
+  - powershell: |-
+      Write-Output Version Number: $(Nuget_Package_Version)
+    displayName: Nuget Package Version Output
+
+#  - task: PublishSymbols@2
+#    displayName: PublishSymbols - Publish Library Symbols
+#    inputs:
+#      SearchPattern: '**/bin/**/*.pdb'
+#      SymbolServerType: TeamServices
+#      TreatNotIndexedAsWarning: true
+#      SymbolsProduct: $(Build.Definition)
+#      SymbolsVersion: $(Nuget_Package_Version)
+#      SymbolsArtifactName: Symbols_$(AssemblyName)_$(BuildConfiguration)
+
+  - task: DotNetCoreCLI@2
+    displayName: DotNet - Pack - Library Project
+    inputs:
+      command: pack
+      packagesToPack: LibMain\lib\Aeonic.Nullables.csproj
+      versioningScheme: byEnvVar
+      versionEnvVar: Nuget_Package_Version
+      arguments: '/p:TargetFrameworks=$(PackageFrameworks)'
+      nobuild: false
+      includesymbols: false
+      configurationToPack: $(BuildConfiguration)
+
+  - task: PublishBuildArtifacts@1
+    displayName: PublishBuildArtifacts - Library Package
+    inputs:
+      pathtoPublish: $(Build.ArtifactStagingDirectory)
+
+  - task: DotNetCoreCLI@2
+    displayName: Dotnet push artifacts
+    inputs:
+      command: push
+      packagesToPush: $(Build.ArtifactStagingDirectory)/**/*.nupkg;!$(Build.ArtifactStagingDirectory)/**/*.symbols.nupkg;
+      nuGetFeedType: internal
+      feedPublish: $(ArtifactFeed)

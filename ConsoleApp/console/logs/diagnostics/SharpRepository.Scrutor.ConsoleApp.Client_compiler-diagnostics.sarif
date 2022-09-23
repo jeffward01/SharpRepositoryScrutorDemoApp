@@ -1,0 +1,887 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Microsoft (R) Visual C# Compiler",
+        "version": "4.3.0.0",
+        "fileVersion": "4.3.0-3.22329.30 (29e657c0)",
+        "semanticVersion": "4.3.0",
+        "language": "en-US"
+      },
+      "results": [
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'StudentName' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Dev/Aeonic/GitHub/General/GithubExamples/SharpRepository.Scrutor/ConsoleApp/console/Infra/Entities/Student.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 19,
+                  "endLine": 6,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Dev/Aeonic/GitHub/General/GithubExamples/SharpRepository.Scrutor/ConsoleApp/console/Infra/Entities/Student.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 19,
+                  "endLine": 6,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'Photo' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Dev/Aeonic/GitHub/General/GithubExamples/SharpRepository.Scrutor/ConsoleApp/console/Infra/Entities/Student.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 20,
+                  "endLine": 8,
+                  "endColumn": 25
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Dev/Aeonic/GitHub/General/GithubExamples/SharpRepository.Scrutor/ConsoleApp/console/Infra/Entities/Student.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 20,
+                  "endLine": 8,
+                  "endColumn": 25
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'Grade' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Dev/Aeonic/GitHub/General/GithubExamples/SharpRepository.Scrutor/ConsoleApp/console/Infra/Entities/Student.cs",
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 18,
+                  "endLine": 12,
+                  "endColumn": 23
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Dev/Aeonic/GitHub/General/GithubExamples/SharpRepository.Scrutor/ConsoleApp/console/Infra/Entities/Student.cs",
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 18,
+                  "endLine": 12,
+                  "endColumn": 23
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'GradeName' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Dev/Aeonic/GitHub/General/GithubExamples/SharpRepository.Scrutor/ConsoleApp/console/Infra/Entities/Grade.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 19,
+                  "endLine": 6,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Dev/Aeonic/GitHub/General/GithubExamples/SharpRepository.Scrutor/ConsoleApp/console/Infra/Entities/Grade.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 19,
+                  "endLine": 6,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'Section' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Dev/Aeonic/GitHub/General/GithubExamples/SharpRepository.Scrutor/ConsoleApp/console/Infra/Entities/Grade.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 19,
+                  "endLine": 7,
+                  "endColumn": 26
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Dev/Aeonic/GitHub/General/GithubExamples/SharpRepository.Scrutor/ConsoleApp/console/Infra/Entities/Grade.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 19,
+                  "endLine": 7,
+                  "endColumn": 26
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'Students' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Dev/Aeonic/GitHub/General/GithubExamples/SharpRepository.Scrutor/ConsoleApp/console/Infra/Entities/Grade.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 33,
+                  "endLine": 9,
+                  "endColumn": 41
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Dev/Aeonic/GitHub/General/GithubExamples/SharpRepository.Scrutor/ConsoleApp/console/Infra/Entities/Grade.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 33,
+                  "endLine": 9,
+                  "endColumn": 41
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'Students' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Dev/Aeonic/GitHub/General/GithubExamples/SharpRepository.Scrutor/ConsoleApp/console/Infra/SchoolContext.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 12,
+                  "endLine": 8,
+                  "endColumn": 25
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Dev/Aeonic/GitHub/General/GithubExamples/SharpRepository.Scrutor/ConsoleApp/console/Infra/SchoolContext.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 27,
+                  "endLine": 13,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'Grades' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Dev/Aeonic/GitHub/General/GithubExamples/SharpRepository.Scrutor/ConsoleApp/console/Infra/SchoolContext.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 12,
+                  "endLine": 8,
+                  "endColumn": 25
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Dev/Aeonic/GitHub/General/GithubExamples/SharpRepository.Scrutor/ConsoleApp/console/Infra/SchoolContext.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 25,
+                  "endLine": 14,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1591",
+          "level": "warning",
+          "message": "Missing XML comment for publicly visible type or member 'App'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Dev/Aeonic/GitHub/General/GithubExamples/SharpRepository.Scrutor/ConsoleApp/console/App.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 14,
+                  "endLine": 8,
+                  "endColumn": 17
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 4
+          }
+        },
+        {
+          "ruleId": "CS1591",
+          "level": "warning",
+          "message": "Missing XML comment for publicly visible type or member 'App.App(IGreeterWelcomeService)'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Dev/Aeonic/GitHub/General/GithubExamples/SharpRepository.Scrutor/ConsoleApp/console/App.cs",
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 12,
+                  "endLine": 12,
+                  "endColumn": 15
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 4
+          }
+        },
+        {
+          "ruleId": "CS1591",
+          "level": "warning",
+          "message": "Missing XML comment for publicly visible type or member 'App.RunAsync()'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Dev/Aeonic/GitHub/General/GithubExamples/SharpRepository.Scrutor/ConsoleApp/console/App.cs",
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 23,
+                  "endLine": 17,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 4
+          }
+        },
+        {
+          "ruleId": "CS1591",
+          "level": "warning",
+          "message": "Missing XML comment for publicly visible type or member 'IAppSettings'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Dev/Aeonic/GitHub/General/GithubExamples/SharpRepository.Scrutor/ConsoleApp/console/Config/IAppSettings.cs",
+                "region": {
+                  "startLine": 3,
+                  "startColumn": 18,
+                  "endLine": 3,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 4
+          }
+        },
+        {
+          "ruleId": "CS1591",
+          "level": "warning",
+          "message": "Missing XML comment for publicly visible type or member 'IGreeterWelcomeService'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Dev/Aeonic/GitHub/General/GithubExamples/SharpRepository.Scrutor/ConsoleApp/console/Features/Greeters/Interfaces/IGreeterWelcomeService.cs",
+                "region": {
+                  "startLine": 3,
+                  "startColumn": 18,
+                  "endLine": 3,
+                  "endColumn": 40
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 4
+          }
+        },
+        {
+          "ruleId": "CS1591",
+          "level": "warning",
+          "message": "Missing XML comment for publicly visible type or member 'IGreeterWelcomeService.WelcomeMessage()'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Dev/Aeonic/GitHub/General/GithubExamples/SharpRepository.Scrutor/ConsoleApp/console/Features/Greeters/Interfaces/IGreeterWelcomeService.cs",
+                "region": {
+                  "startLine": 5,
+                  "startColumn": 10,
+                  "endLine": 5,
+                  "endColumn": 24
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 4
+          }
+        },
+        {
+          "ruleId": "CS1591",
+          "level": "warning",
+          "message": "Missing XML comment for publicly visible type or member 'GreeterWelcomeService'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Dev/Aeonic/GitHub/General/GithubExamples/SharpRepository.Scrutor/ConsoleApp/console/Features/Greeters/Services/GreeterWelcomeService.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 14,
+                  "endLine": 6,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 4
+          }
+        },
+        {
+          "ruleId": "CS1591",
+          "level": "warning",
+          "message": "Missing XML comment for publicly visible type or member 'GreeterWelcomeService.WelcomeMessage()'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Dev/Aeonic/GitHub/General/GithubExamples/SharpRepository.Scrutor/ConsoleApp/console/Features/Greeters/Services/GreeterWelcomeService.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 17,
+                  "endLine": 8,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 4
+          }
+        },
+        {
+          "ruleId": "CS1591",
+          "level": "warning",
+          "message": "Missing XML comment for publicly visible type or member 'Grade'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Dev/Aeonic/GitHub/General/GithubExamples/SharpRepository.Scrutor/ConsoleApp/console/Infra/Entities/Grade.cs",
+                "region": {
+                  "startLine": 3,
+                  "startColumn": 14,
+                  "endLine": 3,
+                  "endColumn": 19
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 4
+          }
+        },
+        {
+          "ruleId": "CS1591",
+          "level": "warning",
+          "message": "Missing XML comment for publicly visible type or member 'Grade.GradeId'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Dev/Aeonic/GitHub/General/GithubExamples/SharpRepository.Scrutor/ConsoleApp/console/Infra/Entities/Grade.cs",
+                "region": {
+                  "startLine": 5,
+                  "startColumn": 16,
+                  "endLine": 5,
+                  "endColumn": 23
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 4
+          }
+        },
+        {
+          "ruleId": "CS1591",
+          "level": "warning",
+          "message": "Missing XML comment for publicly visible type or member 'Grade.GradeName'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Dev/Aeonic/GitHub/General/GithubExamples/SharpRepository.Scrutor/ConsoleApp/console/Infra/Entities/Grade.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 19,
+                  "endLine": 6,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 4
+          }
+        },
+        {
+          "ruleId": "CS1591",
+          "level": "warning",
+          "message": "Missing XML comment for publicly visible type or member 'Grade.Section'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Dev/Aeonic/GitHub/General/GithubExamples/SharpRepository.Scrutor/ConsoleApp/console/Infra/Entities/Grade.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 19,
+                  "endLine": 7,
+                  "endColumn": 26
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 4
+          }
+        },
+        {
+          "ruleId": "CS1591",
+          "level": "warning",
+          "message": "Missing XML comment for publicly visible type or member 'Grade.Students'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Dev/Aeonic/GitHub/General/GithubExamples/SharpRepository.Scrutor/ConsoleApp/console/Infra/Entities/Grade.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 33,
+                  "endLine": 9,
+                  "endColumn": 41
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 4
+          }
+        },
+        {
+          "ruleId": "CS1591",
+          "level": "warning",
+          "message": "Missing XML comment for publicly visible type or member 'Student'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Dev/Aeonic/GitHub/General/GithubExamples/SharpRepository.Scrutor/ConsoleApp/console/Infra/Entities/Student.cs",
+                "region": {
+                  "startLine": 3,
+                  "startColumn": 14,
+                  "endLine": 3,
+                  "endColumn": 21
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 4
+          }
+        },
+        {
+          "ruleId": "CS1591",
+          "level": "warning",
+          "message": "Missing XML comment for publicly visible type or member 'Student.StudentID'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Dev/Aeonic/GitHub/General/GithubExamples/SharpRepository.Scrutor/ConsoleApp/console/Infra/Entities/Student.cs",
+                "region": {
+                  "startLine": 5,
+                  "startColumn": 16,
+                  "endLine": 5,
+                  "endColumn": 25
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 4
+          }
+        },
+        {
+          "ruleId": "CS1591",
+          "level": "warning",
+          "message": "Missing XML comment for publicly visible type or member 'Student.StudentName'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Dev/Aeonic/GitHub/General/GithubExamples/SharpRepository.Scrutor/ConsoleApp/console/Infra/Entities/Student.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 19,
+                  "endLine": 6,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 4
+          }
+        },
+        {
+          "ruleId": "CS1591",
+          "level": "warning",
+          "message": "Missing XML comment for publicly visible type or member 'Student.DateOfBirth'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Dev/Aeonic/GitHub/General/GithubExamples/SharpRepository.Scrutor/ConsoleApp/console/Infra/Entities/Student.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 22,
+                  "endLine": 7,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 4
+          }
+        },
+        {
+          "ruleId": "CS1591",
+          "level": "warning",
+          "message": "Missing XML comment for publicly visible type or member 'Student.Photo'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Dev/Aeonic/GitHub/General/GithubExamples/SharpRepository.Scrutor/ConsoleApp/console/Infra/Entities/Student.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 20,
+                  "endLine": 8,
+                  "endColumn": 25
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 4
+          }
+        },
+        {
+          "ruleId": "CS1591",
+          "level": "warning",
+          "message": "Missing XML comment for publicly visible type or member 'Student.Height'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Dev/Aeonic/GitHub/General/GithubExamples/SharpRepository.Scrutor/ConsoleApp/console/Infra/Entities/Student.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 20,
+                  "endLine": 9,
+                  "endColumn": 26
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 4
+          }
+        },
+        {
+          "ruleId": "CS1591",
+          "level": "warning",
+          "message": "Missing XML comment for publicly visible type or member 'Student.Weight'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Dev/Aeonic/GitHub/General/GithubExamples/SharpRepository.Scrutor/ConsoleApp/console/Infra/Entities/Student.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 18,
+                  "endLine": 10,
+                  "endColumn": 24
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 4
+          }
+        },
+        {
+          "ruleId": "CS1591",
+          "level": "warning",
+          "message": "Missing XML comment for publicly visible type or member 'Student.Grade'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Dev/Aeonic/GitHub/General/GithubExamples/SharpRepository.Scrutor/ConsoleApp/console/Infra/Entities/Student.cs",
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 18,
+                  "endLine": 12,
+                  "endColumn": 23
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 4
+          }
+        },
+        {
+          "ruleId": "CS1591",
+          "level": "warning",
+          "message": "Missing XML comment for publicly visible type or member 'SchoolContext'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Dev/Aeonic/GitHub/General/GithubExamples/SharpRepository.Scrutor/ConsoleApp/console/Infra/SchoolContext.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 14,
+                  "endLine": 6,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 4
+          }
+        },
+        {
+          "ruleId": "CS1591",
+          "level": "warning",
+          "message": "Missing XML comment for publicly visible type or member 'SchoolContext.SchoolContext()'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Dev/Aeonic/GitHub/General/GithubExamples/SharpRepository.Scrutor/ConsoleApp/console/Infra/SchoolContext.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 12,
+                  "endLine": 8,
+                  "endColumn": 25
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 4
+          }
+        },
+        {
+          "ruleId": "CS1591",
+          "level": "warning",
+          "message": "Missing XML comment for publicly visible type or member 'SchoolContext.Students'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Dev/Aeonic/GitHub/General/GithubExamples/SharpRepository.Scrutor/ConsoleApp/console/Infra/SchoolContext.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 27,
+                  "endLine": 13,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 4
+          }
+        },
+        {
+          "ruleId": "CS1591",
+          "level": "warning",
+          "message": "Missing XML comment for publicly visible type or member 'SchoolContext.Grades'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Dev/Aeonic/GitHub/General/GithubExamples/SharpRepository.Scrutor/ConsoleApp/console/Infra/SchoolContext.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 25,
+                  "endLine": 14,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 4
+          }
+        },
+        {
+          "ruleId": "CS1591",
+          "level": "warning",
+          "message": "Missing XML comment for publicly visible type or member 'Program'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Dev/Aeonic/GitHub/General/GithubExamples/SharpRepository.Scrutor/ConsoleApp/console/Program.cs",
+                "region": {
+                  "startLine": 5,
+                  "startColumn": 22,
+                  "endLine": 5,
+                  "endColumn": 29
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 4
+          }
+        },
+        {
+          "ruleId": "CS1591",
+          "level": "warning",
+          "message": "Missing XML comment for publicly visible type or member 'Program.Main(string[])'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Dev/Aeonic/GitHub/General/GithubExamples/SharpRepository.Scrutor/ConsoleApp/console/Program.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 24,
+                  "endLine": 7,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 4
+          }
+        }
+      ],
+      "rules": {
+        "CS1591": {
+          "id": "CS1591",
+          "shortDescription": "Missing XML comment for publicly visible type or member",
+          "fullDescription": "The /doc compiler option was specified, but one or more constructs did not have comments.",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS1591)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "CS8618": {
+          "id": "CS8618",
+          "shortDescription": "Non-nullable field must contain a non-null value when exiting constructor. Consider declaring as nullable.",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8618)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

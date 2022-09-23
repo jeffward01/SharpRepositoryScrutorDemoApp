@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ConsoleApp", "ConsoleApp", "{7771E59A-674E-450F-A5B4-60F5EDADAF6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpRepository.Scrutor.ConsoleApp.Client", "ConsoleApp\console\SharpRepository.Scrutor.ConsoleApp.Client.csproj", "{FDC479D0-CEBF-49B7-8B0D-5522C0B68474}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ConsoleTests", "ConsoleTests", "{D4AC906E-48DE-418C-8508-0248B4774657}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpRepository.Scrutor.ConsoleApp.Client.Tests", "ConsoleTests\tests\SharpRepository.Scrutor.ConsoleApp.Client.Tests.csproj", "{1B89E8F0-F15E-4674-908C-389A74A4526C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FDC479D0-CEBF-49B7-8B0D-5522C0B68474}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDC479D0-CEBF-49B7-8B0D-5522C0B68474}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDC479D0-CEBF-49B7-8B0D-5522C0B68474}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDC479D0-CEBF-49B7-8B0D-5522C0B68474}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B89E8F0-F15E-4674-908C-389A74A4526C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B89E8F0-F15E-4674-908C-389A74A4526C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B89E8F0-F15E-4674-908C-389A74A4526C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B89E8F0-F15E-4674-908C-389A74A4526C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FDC479D0-CEBF-49B7-8B0D-5522C0B68474} = {7771E59A-674E-450F-A5B4-60F5EDADAF6D}
+		{1B89E8F0-F15E-4674-908C-389A74A4526C} = {D4AC906E-48DE-418C-8508-0248B4774657}
+	EndGlobalSection
+EndGlobal
